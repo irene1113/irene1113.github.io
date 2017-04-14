@@ -263,6 +263,17 @@ a{
   background-position: center;
   background-image: url('../img/airCraft.png');
 }
+.airCraft-chat{
+  position:absolute;
+  height: 180px;
+  width: 180px;
+  top: 50%;
+  margin-top: -90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../img/airCraft.png');
+  right: 10%;
+}
 .line{
   position: absolute;
   width: 300px;
@@ -275,13 +286,13 @@ a{
 .illustrationSection{
   position: relative;
   text-align: center;
-  background-color: #222831;
+  background-color: #28303b;
   color:#fff;
   padding: 100px 10px;
 }
 .illustration{
   position: relative;
-  background-color: #222831;
+  background-color: #28303b;
   width: 100%;
   padding: 50px 0px;
 }
@@ -293,7 +304,7 @@ a{
   display: block;
   float: left;
   width: 25%;
-  padding: 50px;
+  padding: 0px 50px;
 }
 .card img{
   position: static;
@@ -302,8 +313,10 @@ a{
   border-radius: 5px;
 }
 .cardDescription{
-  display: none;
   text-align: right;
+}
+.cardDescriptionContent{
+  display: none;
 }
 .cardDescription span{
   float: right;
@@ -472,6 +485,9 @@ img.hover-shadow {
     display: none;
   }
   .cardDescription{
+    display: block;
+  }
+  .cardDescriptionContent{
     display: block;
   }
 }

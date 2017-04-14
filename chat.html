@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/index_style.css" media="screen" title="no title">
+    <link rel="stylesheet" href="style/hover_effect.css" media="screen" title="no title">
+    <link rel="stylesheet" href="style/work_style.css" media="screen" title="no title">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <title>Irene Tung</title>
+  </head>
+  <body class="main paco-cursor">
+    <div class="overlay"></div>
+    <div id="wrapper">
+      <div id="menu" class="menu" data-toggle="offcanvas">
+        <span class="menu-global menu-top"></span>
+        <span class="menu-global menu-middle"></span>
+        <span class="menu-global menu-bottom"></span>
+      </div>
+      <nav id="sidebar-wrapper" class="navbar">
+        <ul class="nav sidebar-nav">
+          <p class="brand"><a href="index.html">LOGO</a></p>
+          <span><a href="about.html">ABOUT</a></span>
+          <span><a href="index.html">PROJECT</a></span>
+          <li class="hvr-forward"><a href="dtd.html">DTD</a></li>
+          <li class="hvr-forward"><a href="chat.html">Air Chat</a></li>
+          <li class="hvr-forward"><a href="paco.html">PACO</a></li>
+          <li class="hvr-forward"><a href="giant.html">GiantMe</a></li>
+          <li class="hvr-forward"><a href="egg.html">But You Are Beautiful</a></li>
+          <li class="hvr-forward"><a href="index.html#illustrationSection">Illustration</a></li>
+        </ul>
+      </nav>
+      <div id="page-content-wrapper">
+        <div class="container-full">
+          <section class="imgFullSection">
+            <div class="textSection wrapper-verticle-center">
+              <h1>AirChat</h1>
+              <span>Real-Time Chat Room</span>
+              <div class="arrow bounce">
+                <img id="downarrow" class="cursor hvr-wobble-vertical" onclick="ScrollDownToDescription()" src="img/downarroe.png" alt="">
+                <!-- <i class="cursor fa fa-arrow-down fa-2x" aria-hidden="true" onclick="ScrollDownToDescription()"></i> -->
+              </div>
+            </div>
+            <div id="airCraft" class="airCraft-chat"></div>
+            <div class="chat-skycloud"></div>
+            <div class="line" style="top:30%;right:60%;"></div>
+            <div class="line" style="top:50%;right:20%;"></div>
+            <div class="line" style="top:80%;right:40%;"></div>
+            <div class="startColor" style="background-color: #c8ece3"></div>
+            <div class="BG" style="background-color: #c7e1e7"></div>
+          </section>
+          <section id="description" class="pageSection" style="background-color: #004967">
+            <div class="projectPage">
+              <div class="projectTitle margin-bottom"><span>AirChat Real-Time Chat Room</span></div>
+              <div class="projectInfo">
+                <div class="projectDescriptionL">
+                  即時聊天室。<br><br>
+                  在太空船裡待久了<br>
+                  難免會感到寂寞<br>
+                  跟別人聊天<br>
+                  原來一直是太空人的小小心願 > <<br><br>
+                  以ＰＨＰ撰寫後台<br>
+                  串接ＳＱＬ資料庫<br>
+                  為太空人創造新契機
+                </div>
+                <div class="projectDescriptionR">
+                  <!-- <div class="block bottomInterval">
+                    <span class="subHeading">Type</span>
+                    <span>Web</span>
+                  </div> -->
+                  <div class="block bottomInterval">
+                    <span class="subHeading">Role</span>
+                    <span>Full-Stack Engineer</span>
+                  </div>
+                  <!-- <div class="block bottomInterval">
+                    <span class="subHeading">See the Project</span>
+                    <span>Link</span>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="padding-20 one-photo width-100" style="background-color: #e8f1f5; padding: 100px 0px;">
+              <img src="img/work/chat-photo1.jpg" alt="">
+            </div>
+          </section>
+          <section>
+            <div class="padding-20 one-photo width-100" style="background-color: #f8d696; padding: 100px 0px;">
+              <img src="img/work/chat-photo2.png" alt="">
+            </div>
+          </section>
+          <section>
+            <div class="padding-20 one-photo width-100" style="background-color: #fff; padding: 100px 0px;">
+              <img src="img/work/chat-logo.png" alt="">
+            </div>
+          </section>
+          <section>
+            <div class="padding-20 one-photo width-100" style="background-color: #71c9ce; padding: 100px 0px;">
+              <img src="img/work/chat-photo3.png" alt="">
+            </div>
+          </section>
+          <section class="z-index-5 imgFullSection" style="background-color: #004967">
+            <div class="fullwidth-wrapper">
+              <div class="paco-logo">
+                <img class="hvr-wobble-vertical" src="img/work/chat-aircraft1.png" alt="">
+              </div>
+            </div>
+          </section>
+          <section class="nextProjectSection" style="background-color: #303841">
+            <div class="nextProject-wrapper">
+              <a href="paco.html">
+                <div class="text-wrapper text-align-center width-100">
+                  <span class="projectTitle">Next Project</span>
+                  <span class="projectName">PACO</span>
+                </div>
+              </a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script type="text/javascript">
+    $('#egg').parallax({imageSrc: 'img/egg.png'});
+    $(window).resize(function(){NextProjectDisplay();});
+    $(document).scroll(function(){NextProjectDisplay();});
+    $('#downarrow').hover(function(){$(this).animate({"opacity": 0.7});},function(){$(this).animate({"opacity": 1});});
+
+  </script>
+  <script src="js/script.js" type="text/javascript"></script>
+</html>

@@ -76,6 +76,28 @@
   width: 32px;
   height: 32px;
 }
+.aircraft{
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  margin-top: -250px;
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/work/chat-aircraft.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0px 0px;
+}
+
+.cloud{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/work/chat-cloud.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0px 0px;
+}
 /*.bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
@@ -206,6 +228,21 @@
   width: 550px;
   margin-left: auto;
   margin-right: auto;
+}
+.chat-skycloud{
+  position:absolute;
+  height: 100vh;
+  min-height: 300px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../img/work/chat-skycloud.png');
+}
+.chat-little{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
 }
 .paco-map, .paco-logo, .giant-need{
   width: 60%;
