@@ -33,6 +33,7 @@ $(document).ready(function(){
   $('#pacoPoster').parallax({imageSrc: 'img/pacoPoster.png'});
   $('#giantMeScene').parallax({imageSrc: 'img/giantMeScene.png'});
   $('#egg').parallax({imageSrc: 'img/egg.png'});
+  $('#popous').parallax({imageSrc: 'img/popous-index1.png'});
 
   var skrollr_obj = skrollr.init();
   $('.grid').masonry({
