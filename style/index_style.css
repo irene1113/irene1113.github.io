@@ -24,6 +24,7 @@ a{
   width: 220px;
   height: 100%;
   background-color: #333C4A;
+  overflow: scroll;
 }
 #sidebar-wrapper a{
   color: inherit;
@@ -36,6 +37,7 @@ a{
   padding: 10px 0px;
   color: #fff;
   display: block;
+  width: 220px;
 }
 #sidebar-wrapper li{
   overflow: hidden;
@@ -44,6 +46,11 @@ a{
 }
 #sidebar-wrapper li :hover{
   background-color: #46CDCF;
+}
+#sidebar-wrapper .active{
+  cursor: pointer;
+  background-color: #ea7070;
+  padding: 10px 15px;
 }
 #sidebar-wrapper li :focus{
   background-color: rgba(0,0,0,0);
@@ -455,10 +462,6 @@ a{
   color: white;
 }
 
-.active{
-  opacity: 1;
-}
-
 img.hover-shadow {
   transition: 0.3s
 }
@@ -510,5 +513,12 @@ img.hover-shadow {
   }
   .textSection h1{
     font-size: 72px;
+  }
+  .irene{
+    top: auto;
+    bottom: 10px;
+  }
+  .irene img{
+    width: 60px;
   }
 }
