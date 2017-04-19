@@ -292,6 +292,7 @@ a{
   background-repeat: no-repeat;
   background-image: url('../img/airCraft.png');
   right: 10%;
+  z-index: 1;
 }
 .line{
   position: absolute;
@@ -300,6 +301,7 @@ a{
   opacity: 0.3;
   background-size: contain;
   background-repeat: no-repeat;
+  z-index: 2;
   background-image: url('../img/line.png');
 }
 .illustrationSection{
